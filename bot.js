@@ -93,7 +93,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`=new |3bker Ticket`,"http://twitch.tv/Death Shop")
+client.user.setGame(`Dark.`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
