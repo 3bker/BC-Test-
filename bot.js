@@ -1,10 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "!";
+
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+const prefix = "=";
     
 client.on("message", (message) => {
     
